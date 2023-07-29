@@ -1,0 +1,44 @@
+#popup {
+    width: 300px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#commentInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#commentList {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.commentItem {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.commentItem:last-child {
+    border-bottom: none;
+}
+
+#saveButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+#saveButton:hover {
+    background-color: #45a049;
+}
